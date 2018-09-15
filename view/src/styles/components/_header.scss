@@ -1,0 +1,25 @@
+.header {
+    background: $peach;
+    color: $light-blue;
+    margin-bottom: $m-size;
+    padding: $m-size 0;
+    justify-content: center;
+  }
+  .header__title {
+    font-size: $l-size;
+    margin: 0;
+  }
+  
+  .header__subtitle {
+    color: $light-blue;
+    font-size: $m-size;
+    font-weight: 500;
+    margin-bottom: $s-size;
+  }
+  
+
+  @media (min-width: $desktop-breakpoint) {
+    .header {
+      margin-bottom: $xl-size;
+    }
+  }
