@@ -1,0 +1,12 @@
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container input {
+    width: 100%;
+    clear: both;
+  }
